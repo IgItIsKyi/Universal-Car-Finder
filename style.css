@@ -6,7 +6,6 @@
 
 body {
     background-color: #202020;
-    margin: 20px;
     text-align: center;
     color:#D6D6D6;
   }
@@ -14,4 +13,49 @@ body {
 h1 {
     padding-top: 20px;
     color: #FFD100;
+}
+
+.menu-bar {
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: #fff;
+  display: flex;
+  height: 90px;
+  width: 100%;
+}
+
+.menu-logo img{
+  height: 90px;
+  width: 110px;
+
+}
+
+.menu-page-tabs ul{
+  align-content: center;
+  list-style-type:  none;
+  margin-left: 600px;
+}
+
+.menu-page-tabs ul li{
+  float: left;
+  display: inline;
+
+}
+
+.menu-page-tabs ul li a{
+  text-decoration: none;
+  padding: 0 20px;
+  color: black;
+  font-size: 18px;
+  line-height: 80px;
+
+}
+
+.foot {
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  margin-top: 90%;
+  margin-bottom: 0px;
+
 }
