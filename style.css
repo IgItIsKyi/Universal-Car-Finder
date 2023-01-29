@@ -3,59 +3,70 @@
   padding: 0;
 }
 
-
-body {
-    background-color: #202020;
-    text-align: center;
-    color:#D6D6D6;
-  }
-
-h1 {
-    padding-top: 20px;
-    color: #FFD100;
-}
-
 .menu-bar {
   margin-top: 0px;
   margin-left: 0px;
-  background-color: #fff;
+  background-color: #D6D6D6;
   display: flex;
-  height: 90px;
+  height: 110px;
   width: 100%;
 }
 
 .menu-logo img{
-  height: 90px;
+  height: fit-content;
   width: 110px;
-
 }
 
 .menu-page-tabs ul{
   align-content: center;
-  list-style-type:  none;
+  list-style-type: none;
   margin-left: 600px;
 }
 
 .menu-page-tabs ul li{
   float: left;
   display: inline;
-
 }
 
 .menu-page-tabs ul li a{
   text-decoration: none;
   padding: 0 20px;
   color: black;
+  font-family: Helvetica, sans-serif;
   font-size: 18px;
   line-height: 80px;
+}
 
+body {
+  background-color: #202020;
+  color: #D6D6D6;
+}
+
+.placeholder {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #FFD100;
+}
+
+.quick-links {
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.quick-links ul li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
 }
 
 .foot {
-  background-color: white;
+  background-color: #D6D6D6;
   height: 60px;
   width: 100%;
   margin-top: 90%;
   margin-bottom: 0px;
-
 }
