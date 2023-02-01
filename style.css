@@ -20,7 +20,7 @@
 .menu-page-tabs ul{
   align-content: center;
   list-style-type: none;
-  margin-left: 600px;
+  margin-left: 0px;
 }
 
 .menu-page-tabs ul li{
@@ -28,13 +28,15 @@
   display: inline;
 }
 
+
 .menu-page-tabs ul li a{
   text-decoration: none;
   padding: 0 20px;
   color: black;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
-  line-height: 80px;
+  line-height: 110px;
+  
 }
 
 body {
