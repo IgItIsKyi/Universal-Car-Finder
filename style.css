@@ -56,14 +56,23 @@ body {
   align-items: center;
   text-align: center;
   list-style-type: none;
-  padding-top: 100px;
+  padding-top: 30px;
   padding-bottom: 100px;
 }
 
 .quick-links ul li{
   display: inline;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 280px 0px 280px;
 }
+
+.quick-links ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  /*line-height: 10px;*/
+}
+
 
 .foot {
   background-color: #D6D6D6;
@@ -71,4 +80,9 @@ body {
   width: 100%;
   margin-top: 90%;
   margin-bottom: 0px;
+}
+
+.Sedan-Suvs-Truck{
+  height: auto;
+  padding: 0px 93px 0px 93px; 
 }
