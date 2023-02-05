@@ -39,6 +39,18 @@
   
 }
 
+.Social-Media{
+  display: flex;
+  margin-left: 60%;
+  margin-top: 30px;
+}
+
+.Social-Media img{
+  height: 40px;
+  width: 40px;
+  padding: 0 7px;
+}
+
 body {
   background-color: #202020;
   color: #D6D6D6;
@@ -98,10 +110,14 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-.Social-Media{
-  height: fit-content;
-  float: right;
-  position: absolute;
-  right: 0;
-  top: 0;
+.filter-button{
+  background: white;
+  outline-style: solid;
+  outline-color: black;
+  outline-width: 2px;
+  opacity: 0.5;
+}
+
+.filter-button button{
+  margin-left: 6.75%;
 }
