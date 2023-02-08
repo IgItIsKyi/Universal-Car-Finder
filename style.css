@@ -121,3 +121,69 @@ body {
 .filter-button button{
   margin-left: 6.75%;
 }
+
+.L-Title{
+  margin: 20px auto;
+  height: 200px;
+  text-align: center;
+  width: 20%;
+  font-family: Helvetica, sans-serif;
+}
+
+.Loan-Calc{
+  margin: 20px auto;
+  height: 200px;
+  text-align: center;
+  width: 20%;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.Loan-Term{
+  position: relative;
+  top: -70%;
+  float: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+.Interest-Rate{
+  position: relative;
+  top: -60%;
+  float: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+.Down-Payment{
+  position: relative;
+  top: -50%;
+  float: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+.Sales-Tax{
+  position: relative;
+  top: -40%;
+  float: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.Calculate{
+  position:relative;
+  top: -30%;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 40%;
+
+}
+
+.result{
+  position:relative;
+  top: -20%;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 40%;
+
+}

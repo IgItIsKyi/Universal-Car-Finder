@@ -30,13 +30,42 @@
         </nav>
         </div>
     </header>
-    <!------------End of Menu Bar / Header -------------->
+
     <body>
-        <div class="title">
-            <h1>Meet the Team</h1>
+        <h1 class="L-Title">Loan Calculator</h1>
+        
+        <div class="Loan-Calc">
+            
+            <div class="Loan-Term">
+                <label for="Loan Term">Loan Term</label>
+                <input type="number" id="Loan-Term" name="Loan-Term" min="0" placeholder="0">
+            </div>
+            
+            <div class="Interest-Rate">
+                <label for="Interest Rate">Interest Rate</label>
+                <input type="number" id="Interest-Rate" name="Interest-Rate" min="0" placeholder="0">
+            </div>
+            
+            <div class="Down-Payment">
+                <label for="Down Payment">Down Payment</label>
+                <input type="number" id="Down-Payment" name="Down-Payment" min="0" placeholder="0">
+            </div>
+            
+            <div class="Sales-Tax">
+                <label for="Sales Tax">Sales Tax</label>
+                <input type="number" id="Sales-Tax" name="Sales-Tax"  min="0" placeholder="0">
+            </div>   
+            <button class="Calculate" id="Calculate">Calculate</button>
+            <div class="result">
+                <input type="number" id="result">
+            </div>
         </div>
     </body>
+    <script src="js/main.js"></script>
 
+ 
+
+    <!------------End of Menu Bar / Header -------------->
     <footer>
         <div class="foot">
           <a href="./Contact_US.html">Meet the Team</a>
