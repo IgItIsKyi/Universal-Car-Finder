@@ -31,7 +31,7 @@
 
 .menu-page-tabs ul li a{
   text-decoration: none;
-  padding: 0 20px;
+  padding: 0 12px;
   color: black;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
@@ -123,16 +123,22 @@ body {
 }
 
 .L-Title{
+  
+  width: 15%;
+  margin: auto;
+  
+  /*
   margin: 20px auto;
   height: 200px;
   text-align: left;
-  width: 20%;
+  width: 15%;
+  */
   font-family: Helvetica, sans-serif;
+  
 }
-
 .Loan-Calc{
+  
   margin: 20px auto;
-  height: 200px;
   text-align: center;
   width: 20%;
   font-family: Helvetica, sans-serif;
@@ -141,57 +147,88 @@ body {
 
 .Principal{
   position: relative;
-  top: -80%;
   float: left;
   font-family: Helvetica, sans-serif;
-  font-size: 20px;  
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .Loan-Term{
   position: relative;
-  top: -70%;
   float: left;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
+  padding-bottom: 10px;
 }
 .Interest-Rate{
   position: relative;
-  top: -60%;
   float: left;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
+  padding-bottom: 10px;
 }
 .Down-Payment{
   position: relative;
-  top: -50%;
   float: left;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
+  padding-bottom: 10px;
 }
 .Sales-Tax{
   position: relative;
-  top: -40%;
   float: left;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
+  
 }
 
 .Calculate{
   position:relative;
-  top: -30%;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
   margin-left: 10%;
   margin-right: 40%;
+  top: 10px;
+}
 
+.Reset_1{
+  position:relative;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 40%;
+  top: 20px;
 }
 
 .result{
   position:relative;
-  top: -20%;
   font-family: Helvetica, sans-serif;
   font-size: 20px;
   margin-left: 10%;
   margin-right: 40%;
+  top: 30px;
 
+}
+
+.Example{
+  position: absolute;
+  font-family: Helvetica, sans-serif;
+  width: 7%;
+  margin-left: 15%;
+  
+
+}
+
+.Ex-Loan{
+  list-style-type: square;
+  position: absolute;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  width: 15%;
+  margin-left: 15%;
+  top: 22%;
+}
+
+ul{
+  list-style-type: none;
 }
